@@ -1,13 +1,23 @@
 const initialMsg = [
     {
         id:0,
-        projectName:"Sathya",
+        projectName:"Tracking APP",
         projectStatus:false
     },
     {
         id:1,
         projectName:"Hello App",
         projectStatus:true
+    },
+    {
+        id:2,
+        projectName:"Work Flow Project",
+        projectStatus:true
+    },
+    {
+        id:3,
+        projectName:"Demo Project",
+        projectStatus:false
     },
     
 ]
