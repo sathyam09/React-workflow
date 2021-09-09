@@ -6,18 +6,15 @@ const TodoApp = () => {
   const [searchValue, setSearchValue] = useState("");
 
   const allProjects = useSelector((state) => state.projects);
-  console.log(allProjects, "allProjects");
   const dispatch = useDispatch();
   const productCount  =   allProjects.filter( (product) => {
     if(product.projectStatus === false ){
         return product
     }
 })
-console.log(productCount.length,"productCount")
 
   const removeHandler = (id) => {
     dispatch({ type: "REMOVE_PROJECT", payload: id });
-    console.log(id);
   };
 
   const addProjectHandler = () => {

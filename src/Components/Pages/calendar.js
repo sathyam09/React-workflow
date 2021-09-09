@@ -1,7 +1,10 @@
 import React from 'react';
 const Calendar = () => {
     return(
-        <div className="lorem-content">
+         <div className="lorem-content">
+          <h1>CALENDAR</h1>
+
+         
 <p>
 Why do we use it?
 

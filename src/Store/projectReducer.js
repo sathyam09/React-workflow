@@ -29,12 +29,9 @@ const ProjectReducer = (state = initialMsg, action) => {
 
             })
             return data
-            // return [...newState]
-             // replace matched item and returns the array 
-     
+           
         case "SEARCH_PROJECT":
             const serachArray = [...initialMsg]
-            console.log(action.payload)
         if(action.payload){
 
          return serachArray.filter(product => 

@@ -2,6 +2,7 @@ import React from 'react';
 const Reports = () => {
     return(
         <div className="lorem-content">
+          <h1>REPORTS</h1>
 
 <p>Where does it come from?
 

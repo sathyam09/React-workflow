@@ -26,6 +26,7 @@ function Navbar() {
               <div className="body-content">
 
               <Switch>
+                <Route path="/" component={Dashboard} exact />
                 <Route exact  path="/dashboard" component={Dashboard}/>
                 <Route path="/teams" component={TodoApp}/>
                 <Route path="/projects" component={Projects}/>

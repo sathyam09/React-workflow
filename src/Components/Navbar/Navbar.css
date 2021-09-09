@@ -99,8 +99,9 @@ span {
   overflow-y: hidden;
 }
 .body-content{
-  max-height: calc(100% - 100px);
-  overflow-y: scroll;
+  max-height: calc(100% - 75px);
+  overflow-y: auto;
+  height:calc(100% - 75px); 
 }
 
 .Search-bar, .dash-title{
@@ -212,7 +213,7 @@ span {
   background-color: #131212;
   color: white;
   padding: 25px 0px 10px 95px;
-  height: 60vh;
+  min-height: calc(100% - 135px);
 
 
 }
@@ -278,6 +279,5 @@ span {
 }
 
 .lorem-content{
-  text-align: center;
-padding: 60px;
+padding: 20px;
 }

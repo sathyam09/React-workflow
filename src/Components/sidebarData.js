@@ -72,51 +72,5 @@ export const DashBoardList = [
         month:"This Month",
         color:"vendor-box"
 
-    },{
-        title:"Earnings",
-        icon:<FaIcons.FaTelegramPlane />,
-        price:"$ 6659",
-        month:"This Month",
-        color:"earning-box"
-
-    },
-    {
-        title:"Products",
-        icon:<FaIcons.FaDiceD6 />,
-        price:"$ 9856",
-        month:"This Month",
-        color:"product-box"
-
-    },
-    {
-        title:"Earnings",
-        icon:<FaIcons.FaTelegramPlane />,
-        price:"$ 6659",
-        month:"This Month",
-        color:"earning-box"
-
-    },
-    {
-        title:"Products",
-        icon:<FaIcons.FaDiceD6 />,
-        price:"$ 9856",
-        month:"This Month",
-        color:"product-box"
-
-    },{
-        title:"Earnings",
-        icon:<FaIcons.FaTelegramPlane />,
-        price:"$ 6659",
-        month:"This Month",
-        color:"earning-box"
-
-    },
-    {
-        title:"Products",
-        icon:<FaIcons.FaDiceD6 />,
-        price:"$ 9856",
-        month:"This Month",
-        color:"product-box"
-
-    },
+    }
 ]
